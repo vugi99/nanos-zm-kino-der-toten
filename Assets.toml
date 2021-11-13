@@ -1,0 +1,196 @@
+# asset pack configurations
+[asset_pack]
+    # asset pack name
+    name =              "zm-kino-der-toten"
+    # contributors
+    author =            "Voltaism"
+    # version
+    version =           "0.1.2"
+    # image URL
+    image =             "https://i.imgur.com/8Iyjkya.png"
+    # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
+    unreal_folder =     "kino-der-toten"
+
+# assets files
+[assets]
+    # maps
+    [assets.maps]
+        zm_kino_der_toten = "zm_kino_der_toten/zm_kino_der_toten"
+
+    # static meshes
+    [assets.static_meshes]
+        Fiat500_Hatchback = "kino_props/Meshes/kali/vehicles/BO/Fiat500_Hatchback"
+        Storage_Cabinet_static = "kino_props/Meshes/props_generic/Storage_Cabinet_static"
+        Van_Volkswagen = "kino_props/Meshes/kali/vehicles/BO/Van_Volkswagen"
+        alley_doski1 = "kino_props/Meshes/props/alley_doski1"
+        barstool_deco = "kino_props/Meshes/nz_kino/barstool_deco"
+        bismarkbig = "kino_props/Meshes/props/bismarkbig"
+        bismarksmall = "kino_props/Meshes/props/bismarksmall"
+        chair_folded = "kino_props/Meshes/nz_kino/chair_folded"
+        chair_folding = "kino_props/Meshes/nz_kino/chair_folding"
+        chair_victorian_green_worn = "kino_props/Meshes/nz_kino/chair_victorian_green_worn"
+        chandelier_clean = "kino_props/Meshes/nz_kino/chandelier_clean"
+        chandelier_old = "kino_props/Meshes/nz_kino/chandelier_old"
+        couch_victorian = "kino_props/Meshes/nz_kino/couch_victorian"
+        couch_victorian_green_worn = "kino_props/Meshes/nz_kino/couch_victorian_green_worn"
+        dumpster_classy = "kino_props/Meshes/props/dumpster_classy"
+        faustbig = "kino_props/Meshes/props/faustbig"
+        faustsmall = "kino_props/Meshes/props/faustsmall"
+        floor_rubble1 = "kino_props/Meshes/props_debris/floor_rubble1"
+        kbarrel_stack1 = "kino_props/Meshes/props/kbarrel_stack1"
+        kbarrel_stack2 = "kino_props/Meshes/props/kbarrel_stack2"
+        kcade1 = "kino_props/Meshes/props/kcade1"
+        kcade2 = "kino_props/Meshes/props/kcade2"
+        kcade_leftroom = "kino_props/Meshes/props/kcade_leftroom"
+        kcade_street1 = "kino_props/Meshes/props/kcade_street1"
+        kcade_street2 = "kino_props/Meshes/props/kcade_street2"
+        kcaferailing1xd = "kino_props/Meshes/props/kcaferailing1xd"
+        kcaferailingxd2 = "kino_props/Meshes/props/kcaferailingxd2"
+        kchairxd = "kino_props/Meshes/props/kchairxd"
+        kchest_big_locked = "kino_props/Meshes/props/kchest_big_locked"
+        kchest_big_open = "kino_props/Meshes/props/kchest_big_open"
+        kchest_small_locked = "kino_props/Meshes/props/kchest_small_locked"
+        kchest_small_open = "kino_props/Meshes/props/kchest_small_open"
+        kcolumn_broken = "kino_props/Meshes/props/kcolumn_broken"
+        kcolumn_whole = "kino_props/Meshes/props/kcolumn_whole"
+        kddz = "kino_props/Meshes/props/kddz"
+        kdoormetal = "kino_props/Meshes/props/kdoormetal"
+        kdroom_mirror_99 = "kino_props/Meshes/props/kdroom_mirror_99"
+        kdroom_mirror_broken1 = "kino_props/Meshes/props/kdroom_mirror_broken1"
+        kdroom_mirror_brokenxd = "kino_props/Meshes/props/kdroom_mirror_brokenxd"
+        kdroom_mirror_damaged1 = "kino_props/Meshes/props/kdroom_mirror_damaged1"
+        kdroom_mirror_damaged2 = "kino_props/Meshes/props/kdroom_mirror_damaged2"
+        kdroom_mirror_whole = "kino_props/Meshes/props/kdroom_mirror_whole"
+        kfence1 = "kino_props/Meshes/props/kfence1"
+        kfence2 = "kino_props/Meshes/props/kfence2"
+        kflag_big = "kino_props/Meshes/props/kflag_big"
+        kflag_small = "kino_props/Meshes/props/kflag_small"
+        kgenerator_large = "kino_props/Meshes/props/kgenerator_large"
+        kgenerator_small = "kino_props/Meshes/props/kgenerator_small"
+        kino_alleywindows = "kino_props/Meshes/props/kino_alleywindows"
+        kino_brokenglass = "kino_props/Meshes/props/kino_brokenglass"
+        kino_cadebo3st = "kino_props/Meshes/props/kino_cadebo3st"
+        kino_cafe_blockeddoor = "kino_props/Meshes/props/kino_cafe_blockeddoor"
+        kino_cafe_carpet1 = "kino_props/Meshes/props/kino_cafe_carpet1"
+        kino_cafe_carpet2 = "kino_props/Meshes/props/kino_cafe_carpet2"
+        kino_carpet = "kino_props/Meshes/props/kino_carpet"
+        kino_deco_blockeddoor = "kino_props/Meshes/props/kino_deco_blockeddoor"
+        kino_doll_stand = "kino_props/Meshes/props/kino_doll_stand"
+        kino_door1 = "kino_props/Meshes/props/kino_door1"
+        kino_door2 = "kino_props/Meshes/props/kino_door2"
+        kino_door3 = "kino_props/Meshes/props/kino_door3"
+        kino_door4 = "kino_props/Meshes/props/kino_door4"
+        kino_door5 = "kino_props/Meshes/props/kino_door5"
+        kino_door_pit = "kino_props/Meshes/props/kino_door_pit"
+        kino_doorbo3st = "kino_props/Meshes/props/kino_doorbo3st"
+        kino_doorbo3st_open = "kino_props/Meshes/props/kino_doorbo3st_open"
+        kino_doorframe_new = "kino_props/Meshes/props/kino_doorframe_new"
+        kino_doorway_wooden = "kino_props/Meshes/props/kino_doorway_wooden"
+        kino_doska = "kino_props/Meshes/props/kino_doska"
+        kino_doski2 = "kino_props/Meshes/props/kino_doski2"
+        kino_doubledoorway_wood = "kino_props/Meshes/props/kino_doubledoorway_wood"
+        kino_fence_debris = "kino_props/Meshes/props/kino_fence_debris"
+        kino_gate_abovefiretrap = "kino_props/Meshes/props/kino_gate_abovefiretrap"
+        kino_gate_firetrap = "kino_props/Meshes/props/kino_gate_firetrap"
+        kino_gate_weirdroom = "kino_props/Meshes/props/kino_gate_weirdroom"
+        kino_gateway_lobby = "kino_props/Meshes/props/kino_gateway_lobby"
+        kino_lobbybgdoorway = "kino_props/Meshes/props/kino_lobbybgdoorway"
+        kino_metalarch = "kino_props/Meshes/props/kino_metalarch"
+        kino_painting1 = "kino_props/Meshes/props/kino_painting1"
+        kino_painting2 = "kino_props/Meshes/props/kino_painting2"
+        kino_painting3 = "kino_props/Meshes/props/kino_painting3"
+        kino_stage_catwalk1 = "kino_props/Meshes/props/kino_stage_catwalk1"
+        kino_stage_catwalk2 = "kino_props/Meshes/props/kino_stage_catwalk2"
+        kino_stage_handler = "kino_props/Meshes/props/kino_stage_handler"
+        kino_stage_screenholder = "kino_props/Meshes/props/kino_stage_screenholder"
+        kino_theater_arch = "kino_props/Meshes/props/kino_theater_arch"
+        kino_theater_arch_decor = "kino_props/Meshes/props/kino_theater_arch_decor"
+        kino_theater_balcony1 = "kino_props/Meshes/props/kino_theater_balcony1"
+        kino_theater_balcony2 = "kino_props/Meshes/props/kino_theater_balcony2"
+        kino_theater_barricade = "kino_props/Meshes/props/kino_theater_barricade"
+        klamp = "kino_props/Meshes/props/klamp"
+        klobbybar1 = "kino_props/Meshes/props/klobbybar1"
+        klobbybar2 = "kino_props/Meshes/props/klobbybar2"
+        klobbydoorcade = "kino_props/Meshes/props/klobbydoorcade"
+        klobbydoorcade2 = "kino_props/Meshes/props/klobbydoorcade2"
+        klobbydoorcade3 = "kino_props/Meshes/props/klobbydoorcade3"
+        klobbymetalstuff = "kino_props/Meshes/props/klobbymetalstuff"
+        klobbyrailing = "kino_props/Meshes/props/klobbyrailing"
+        klobbyrailing2 = "kino_props/Meshes/props/klobbyrailing2"
+        klobbyrailing3 = "kino_props/Meshes/props/klobbyrailing3"
+        klobbytrim = "kino_props/Meshes/props/klobbytrim"
+        klobbytrimshort = "kino_props/Meshes/props/klobbytrimshort"
+        klobbytrimshort_double = "kino_props/Meshes/props/klobbytrimshort_double"
+        klobbywindow = "kino_props/Meshes/props/klobbywindow"
+        kpipe_genroom = "kino_props/Meshes/props/kpipe_genroom"
+        kpipebig1 = "kino_props/Meshes/props/kpipebig1"
+        kpipebig2 = "kino_props/Meshes/props/kpipebig2"
+        kpipebig3 = "kino_props/Meshes/props/kpipebig3"
+        kprojector = "kino_props/Meshes/props/kprojector"
+        krailing_cafe = "kino_props/Meshes/props/krailing_cafe"
+        krailing_leftroom = "kino_props/Meshes/props/krailing_leftroom"
+        krailing_rightroom = "kino_props/Meshes/props/krailing_rightroom"
+        krailing_staircase = "kino_props/Meshes/props/krailing_staircase"
+        ksdz = "kino_props/Meshes/props/ksdz"
+        ksdzm = "kino_props/Meshes/props/ksdzm"
+        kseat = "kino_props/Meshes/props/kseat"
+        kseat4 = "kino_props/Meshes/props/kseat4"
+        kseat6 = "kino_props/Meshes/props/kseat6"
+        kveshalka = "kino_props/Meshes/props/kveshalka"
+        kwallchunk = "kino_props/Meshes/props/kwallchunk"
+        kwardrobe = "kino_props/Meshes/props/kwardrobe"
+        kwindowarch = "kino_props/Meshes/props/kwindowarch"
+        kwindowarch_big = "kino_props/Meshes/props/kwindowarch_big"
+        kwindowdouble_street = "kino_props/Meshes/props/kwindowdouble_street"
+        kwindowevensmaller = "kino_props/Meshes/props/kwindowevensmaller"
+        kwindowhuge = "kino_props/Meshes/props/kwindowhuge"
+        kwindowsmaller = "kino_props/Meshes/props/kwindowsmaller"
+        kwindowsneaky = "kino_props/Meshes/props/kwindowsneaky"
+        light_floodlight02_off = "kino_props/Meshes/props_c17/light_floodlight02_off"
+        light_wall_lamp_vintage = "kino_props/Meshes/nz_kino/light_wall_lamp_vintage"
+        movie_reel_vintage_01 = "kino_props/Meshes/nz_kino/movie_reel_vintage_01"
+        movie_reel_vintage_02 = "kino_props/Meshes/nz_kino/movie_reel_vintage_02"
+        movie_reel_vintage_03 = "kino_props/Meshes/nz_kino/movie_reel_vintage_03"
+        new_shelf_model = "kino_props/Meshes/props/new_shelf_model"
+        power_cable_1 = "kino_props/Meshes/static_props/power_cable_1"
+        pygmalionbig = "kino_props/Meshes/props/pygmalionbig"
+        pygmalionsmall = "kino_props/Meshes/props/pygmalionsmall"
+        rubblepile3 = "kino_props/Meshes/brest/props_debris/rubblepile3"
+        table_wood_dining_oval = "kino_props/Meshes/nz_kino/table_wood_dining_oval"
+        table_wood_dining_oval_cloth = "kino_props/Meshes/nz_kino/table_wood_dining_oval_cloth"
+        tools_old_01 = "kino_props/Meshes/props_junk/tools_old_01"
+        trainstation_clock001 = "kino_props/Meshes/props_trainstation/trainstation_clock001"
+        ver_shkafgg = "kino_props/Meshes/props/ver_shkafgg"
+        zapper_handle = "kino_props/Meshes/nzprops/zapper_handle"
+        zom_teleporter = "kino_props/Meshes/props_boz/zom_teleporter"
+        zom_teleporter_pad = "kino_props/Meshes/props_boz/zom_teleporter_pad"
+
+    # skeletal meshes
+    [assets.skeletal_meshes]
+        # SK_Better_Man = "Characters/SK_BetterMan_03"
+        # ...
+
+    # sounds
+    [assets.sounds]
+        # A_Awesome_Music = "Sounds/A_Awesome_Music"
+        # ...
+
+    # animations
+    [assets.animations]
+        # A_Character_Jump = "Animations/A_Character_Jump"
+        # ...
+
+    # particles
+    [assets.particles]
+        # P_Big_Explosion = "Particles/P_Big_Explosion"
+        # ...
+
+    # materials
+    [assets.materials]
+        # M_Red_Textured = "Materials/M_Red_Textured"
+        # ...
+
+    # other assets (for not yet categorized ones)
+    [assets.others]
+        # A_Audio_Rifle_Fire = "Audios/A_Audio_Rifle_Fire_03"
+        # ...
