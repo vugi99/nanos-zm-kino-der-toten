@@ -5,7 +5,7 @@
     # contributors
     author =            "Voltaism"
     # version
-    version =           "0.1.2"
+    version =           "0.2.0"
     # image URL
     image =             "https://i.imgur.com/8Iyjkya.png"
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
@@ -172,8 +172,8 @@
 
     # sounds
     [assets.sounds]
-        # A_Awesome_Music = "Sounds/A_Awesome_Music"
-        # ...
+        Collapse01 = "EasterEgg/Collapse01"
+        EE_Kino = "EasterEgg/EE_Kino"
 
     # animations
     [assets.animations]
